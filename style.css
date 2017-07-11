@@ -6,11 +6,12 @@ header a:active { color: white; }
 header{
   background-color: #2971FF;
   height: 90px;
-}
-header img{
+  width: 100%;
+  position: fixed;
 
 }
-header_logo{
+
+.header_logo{
   color: white;
   font-size: 40px;
   padding: 20px;
@@ -27,7 +28,7 @@ header li{
 
 .main{
   background-color: #0C1E3E;
-  height: 500px;
+  height: 1000px;
 }
 
 footer a:link { color: #2ED6A1; }
