@@ -1,15 +1,16 @@
-body{
 
-  }
-.header a:link { color: white; }
-.header a:visited { color: white; }
-.header a:hover { color: white; }
-.header a:active { color: white; }
-.header{
+header a:link { color: white; }
+header a:visited { color: white; }
+header a:hover { color: white; }
+header a:active { color: white; }
+header{
   background-color: #2971FF;
   height: 90px;
 }
-.header_logo{
+header img{
+
+}
+header_logo{
   color: white;
   font-size: 40px;
   padding: 20px;
@@ -18,7 +19,7 @@ body{
 .header_list{
   float: left;
 }
-.header li{
+header li{
    list-style: none;
    float: left;
    padding: 20px;
@@ -29,11 +30,11 @@ body{
   height: 500px;
 }
 
-.footer a:link { color: #2ED6A1; }
-.footer a:visited { color: #2ED6A1; }
-.footer a:hover { color: #2ED6A1; }
-.footer a:active { color: #2ED6A1; }
-.footer{
+footer a:link { color: #2ED6A1; }
+footer a:visited { color: #2ED6A1; }
+footer a:hover { color: #2ED6A1; }
+footer a:active { color: #2ED6A1; }
+footer{
   background-color: #1D3258;
   height: 90px;
 }
@@ -50,7 +51,7 @@ body{
 .footer_list{
   float: right;
 }
-.footer li{
+footer li{
   list-style: none;
   color: #2ED6A1;
   padding: 5px;
