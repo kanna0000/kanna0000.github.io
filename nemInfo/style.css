@@ -1,0 +1,21 @@
+ul{
+  list-style: none;
+}
+h1{
+  margin: auto;
+}
+table#networkStatus, tr#height td{
+  border: none;
+}
+table, th, td{
+  border-collapse: collapse;
+  border: 1px solid;
+}
+table{
+  float: left;
+  margin: 5px;
+}
+.network{
+  height: 10px;
+  margin: 20px;
+}
